@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-n-8 text-n-1 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg]
+}
+
+.rotate-90 {
+  @apply rotate-[90deg]
+}
+
+.rotate-135 {
+  @apply rotate-[135deg]
+}
+
+.rotate-180 {
+  @apply rotate-[180deg]
+}
+
+.rotate-225 {
+  @apply rotate-[225deg]
+}
+
+.rotate-270 {
+  @apply rotate-[270deg]
+}
+
+.rotate-315 {
+  @apply rotate-[315deg]
+}
+
+.rotate-360 {
+  @apply rotate-[360deg]
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg]
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg]
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg]
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg]
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg]
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg]
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg]
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg]
+}
+
+/* 
+og code start */
+
+/* .myboxaya {
+  height: 500px;
+  width: 600px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 500px;
+  border-radius: 40px;
+  color: rgb(234, 238, 241);
+  text-align: center;
+  border: 1px solid #271043;
+}
+
+.myhead {
+  font-size: 44px;
+  font-weight: 600;
+  color: rgb(242, 244, 247);
+  margin-top: 40px;
+}
+
+
+.forshifingtextinput {
+  margin-top: 40px;
+} */
+
+/* og code */
+
+.myboxaya {
+  height: 500px;
+  width: 600px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 500px;
+  border-radius: 40px;
+  color: rgb(234, 238, 241);
+  text-align: center;
+  border: 1px solid #271043;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .myboxaya {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .myboxaya {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .myboxaya {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+
+.myhead {
+  font-size: 44px;
+  font-weight: 600;
+  color: rgb(242, 244, 247);
+  margin-top: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .myhead {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .myhead {
+    font-size: 28px;
+  }
+}
+
+.forshifingtextinput {
+  margin-top: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .forshifingtextinput {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .forshifingtextinput {
+    margin-top: 20px;
+  }
+}
+
+
+/* .myboxaya button {
+   
+    color: aliceblue;
+    display:inline-flex;
+    position: relative;
+    border: 2px solid aliceblue;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: rgb(1, 5, 17);
+    font-weight: 300;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+} */
+
+/* given to footer  */
+
+.formargintt {
+  margin-top: 500px;
+}
+
+
+/* end of footer additional css */
+
+
+/* for og */
+/* .myboxaya button {
+   
+  color: aliceblue;
+  display:inline-flex;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 300;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 4px;
+}
+
+.button-click:active{
+  transform: scale(0.9);
+}
+
+.input-box{
+  padding: 4px;
+  background-color: transparent;
+  border: 2px solid #271043;
+  border-radius: 5px;
+  margin-left: 5px;
+} */
+
+/* end vite */
+
+
+
+.myboxaya {
+  height: 500px;
+  width: 600px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 500px;
+  border-radius: 40px;
+  color: rgb(234, 238, 241);
+  text-align: center;
+  border: 1px solid #271043;
+}
+
+/* Responsive styles for .myboxaya */
+@media (max-width: 1200px) {
+  .myboxaya {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .myboxaya {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .myboxaya {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+
+.myboxaya button {
+  color: aliceblue;
+  display: inline-flex;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 300;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 4px;
+}
+
+/* Responsive styles for .myboxaya button */
+@media (max-width: 768px) {
+  .myboxaya button {
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .myboxaya button {
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+}
+
+.button-click:active {
+  transform: scale(0.9);
+}
+
+.input-box {
+  padding: 4px;
+  background-color: transparent;
+  border: 2px solid #271043;
+  
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+/* Responsive styles for .input-box */
+@media (max-width: 768px) {
+  .input-box {
+    width: 90%;
+    padding: 3px;
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-box {
+    width: 80%;
+    padding: 2px;
+    margin-left: 2px;
+  }
+}
+
+.myhead {
+  font-size: 44px;
+  font-weight: 600;
+  color: rgb(242, 244, 247);
+  margin-top: 40px;
+}
+
+/* Responsive styles for .myhead */
+@media (max-width: 768px) {
+  .myhead {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .myhead {
+    font-size: 28px;
+  }
+}
+
+.forshifingtextinput {
+  margin-top: 40px;
+}
+
+/* Responsive styles for .forshifingtextinput */
+@media (max-width: 768px) {
+  .forshifingtextinput {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .forshifingtextinput {
+    margin-top: 20px;
+  }
+}
